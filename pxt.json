@@ -1,0 +1,34 @@
+{
+    "name": "mac lol ",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "animation": "*",
+        "pxt-button-combos": "github:jwunderl/pxt-button-combos#v0.0.24",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "controller": "*",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.12.18",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
